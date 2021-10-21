@@ -1,0 +1,56 @@
+.home__container {
+  margin-top: 5vh;
+  padding: 0 20%;
+}
+.home__toggleContainer {
+  padding: 5px;
+  background-color: #caf0f8;
+}
+.home__toogle {
+  background-color: white;
+  display: flex;
+  font-size: 20px;
+  line-height: 2;
+}
+.home__toggleToAddSlot {
+  flex: 0.5;
+  text-align: center;
+}
+.home__toggleToViewSlot {
+  flex: 0.5;
+  text-align: center;
+}
+.home__toogle > .selected {
+  background-color: #00b4d8;
+  color: white;
+  z-index: 50;
+}
+.home__header {
+  margin-top: 15px;
+  margin-left: 32%;
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+.home__headerStartTime {
+  margin-left: 3%;
+  background-color: #00b4d8;
+  width: 30%;
+  text-align: center;
+  padding: 3px 0;
+  color: white;
+  border-radius: 5%;
+  font-size: 13px;
+  margin-right: 11%;
+}
+
+.home__headerEndTime {
+  margin-left: 11%;
+  background-color: #00b4d8;
+  width: 30%;
+  text-align: center;
+  padding: 3px 0;
+  color: white;
+  border-radius: 5%;
+  font-size: 13px;
+}

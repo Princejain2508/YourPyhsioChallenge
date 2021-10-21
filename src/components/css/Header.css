@@ -1,0 +1,29 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #00b4d8;
+  position: sticky;
+  justify-content: center;
+  top: 0;
+  z-index: 100;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  align-items: center;
+}
+
+.header__optionLineOne {
+  font-size: 16px;
+}
+
+.header__optionLineTwo {
+  font-size: 16px;
+  font-weight: 800;
+  color: "white" !important;
+}
